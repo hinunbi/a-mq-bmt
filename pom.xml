@@ -11,6 +11,21 @@
 		<activemq.version>5.11.0.redhat-630187</activemq.version>
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>redhat-ga</id>
+			<name>Redhat GA Repository</name>
+			<url>https://maven.repository.redhat.com/ga</url>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>redhat-ga</id>
+			<name>Redhat GA Repository</name>
+			<url>https://maven.repository.redhat.com/ga</url>
+		</pluginRepository>
+	</pluginRepositories>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.activemq.tooling</groupId>
@@ -25,13 +40,6 @@
 				<groupId>org.apache.activemq.tooling</groupId>
 				<artifactId>activemq-perf-maven-plugin</artifactId>
 				<version>${activemq.version}</version>
-				<dependencies>
-					<dependency>
-						<groupId>${project.groupId}</groupId>
-						<artifactId>${project.artifactId}</artifactId>
-						<version>${project.version}</version>
-					</dependency>
-				</dependencies>
 			</plugin>
 		</plugins>
 	</build>
