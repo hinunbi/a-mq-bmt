@@ -14,7 +14,7 @@ This project make user be able to test the performance of A-MQ using `activemq-p
  
 ## 2. Install and run Red Hat JBoss A-MQ 6.3.0
  	
-download [JBoss A-MQ 6.3.0](https://access.redhat.com/jbossnetwork/restricted/softwareDownload.html?softwareId=46841), unzip, and run A-MQ
+download [JBoss A-MQ 6.3.0](https://access.redhat.com/jbossnetwork/restricted/softwareDownload.html?softwareId=46841), unzip, add a test user(step 3) before running, and run A-MQ, 
  	
  	
 	> unzip jboss-a-mq-6.3.0.redhat-187.zip
